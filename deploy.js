@@ -5,7 +5,7 @@ const UniswapV2Factory = require('./UniswapV2Factory.json')
 const UniswapV2Router01 = require('./UniswapV2Router01.json')
 const UniswapV2Router02 = require('./UniswapV2Router02.json')
 
-const endpoint = 'https://ropsten.infura.io/v3/xxxxxxxxxx';
+const endpoint = 'https://ropsten.infura.io/v3/xxxxxxxxxx'; //自行申请
 const hexPrivateKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 async function sendTransaction(web3, chainId, account, data, nonce, gasPrice) {
